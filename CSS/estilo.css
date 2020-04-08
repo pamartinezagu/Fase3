@@ -1,19 +1,29 @@
 body{
-    background-color: wheat;
-    color: black;
+    background-color: #ffffff;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
 }
 nav, header, section, .contenido, footer{
     max-width: 92%;
     margin: auto;
 }
 nav{
-    background-color: brown;
+    background-color: #f2880d;
 }
 header{
-    background-color: darkcyan;
+    background-color: #ffffff
 }
-.contenido{
+#contenedor{
   background-color: burlywood;  
+  width: 1200px;
+	margin: auto;
+	margin-top: 10px; 
+	border-radius: 20px; 
+	overflow: hidden;
+	margin-bottom: 20px
 }
 .central{
     background-color: chocolate;
@@ -21,7 +31,7 @@ header{
     max-width: 65%;
 }
 footer{
-    background-color: darkgreen;
+    background-color: #005883;
 }
 aside{
    
