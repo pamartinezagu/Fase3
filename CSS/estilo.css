@@ -1,8 +1,8 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: wheat;
+    color: black;
 }
-nav, header, section, .contenedor, footer{
+nav, header, section, .contenido, footer{
     max-width: 92%;
     margin: auto;
 }
@@ -12,7 +12,7 @@ nav{
 header{
     background-color: darkcyan;
 }
-.contenedor{
+.contenido{
   background-color: burlywood;  
 }
 .central{
@@ -24,7 +24,7 @@ footer{
     background-color: darkgreen;
 }
 aside{
-    background-color: violet;
-    display: inline-block;
+   
+    display: left;
     max-width: 27%;
 }
