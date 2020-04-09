@@ -1,40 +1,126 @@
-body{
-    background-color: #ffffff;
-    background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-
-}
-nav, header, section, .contenido, footer{
-    max-width: 92%;
-    margin: auto;
-}
-nav{
-    background-color: #f2880d;
-}
-header{
-    background-color: #ffffff
-}
-#contenedor{
-  background-color: burlywood;  
-  width: 1200px;
-	margin: auto;
-	margin-top: 10px; 
-	border-radius: 20px; 
-	overflow: hidden;
-	margin-bottom: 20px
-}
-.central{
-    background-color: chocolate;
-    display: inline-block;
-    max-width: 65%;
-}
-footer{
-    background-color: #005883;
-}
-aside{
-   
-    display: left;
-    max-width: 27%;
-}
+    body,
+    nav,
+    header,
+    section,
+    .contentenor,
+    .central,
+    footer,
+    aside {
+        max-width: 92%;
+        margin: auto;
+    }
+    
+    H1 {
+        font-size: 28pt;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 14pt;
+    }
+    
+    body {
+        background-color: #ffffff;
+        font-family: serif;
+    }
+    
+    .contenedor {
+        width: 1000px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .central {
+        display: inline-block;
+        max-width: 70%;
+    }
+    
+    h1 {
+        text-emphasis: center;
+    }
+    
+    section {
+        padding: 0%;
+    }
+    
+    header {
+        background-color: #ffffff;
+        align-content: center;
+        padding: 1%;
+        width: 1200px;
+    }
+    /**menu*/
+    
+    #menu ul {
+        list-style: none;
+        margin: 0px;
+    }
+    /* items del menu */
+    
+    #menu ul li {
+        background-color: #2e518b;
+    }
+    /* enlaces del menu */
+    
+    #menu ul a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 1200;
+        font-size: 15px;
+        padding: 10px;
+        font-family: serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    /* items del menu */
+    
+    #menu ul li {
+        position: relative;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    /* efecto al pasar el ratón por los items del menu */
+    
+    #menu ul li:hover {
+        background: #5b78a7;
+    }
+    /* menu desplegable */
+    
+    #menu ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #eee;
+        padding: 0;
+    }
+    /* items del menu desplegable */
+    
+    #menu ul ul li {
+        float: none;
+        width: 150px
+    }
+    /* enlaces de los items del menu desplegable */
+    
+    #menu ul ul a {
+        line-height: 120%;
+        padding: 10px 15px;
+    }
+    /* items del menu desplegable al pasar el ratón */
+    
+    #menu ul li:hover>ul {
+        display: block;
+    }
+    
+    footer {
+        background-color: #f2880d;
+        flex: 0 0 auto;
+    }
+    
+    aside {
+        display: inline-block;
+        float: right;
+        width: 15%;
+    }
