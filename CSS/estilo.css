@@ -1,5 +1,4 @@
     body,
-    nav,
     header,
     section,
     .contentenor,
@@ -40,40 +39,43 @@
     }
     
     section {
-        padding: 0%;
+        padding: 1%;
     }
     
     header {
         background-color: #ffffff;
         align-content: center;
         padding: 1%;
-        width: 1200px;
+        width: auto;
     }
     /**menu*/
+    
+    #menu {
+        float: right;
+        width: 100%;
+        background-color: #024959;
+    }
     
     #menu ul {
         list-style: none;
         margin: 0px;
     }
-    /* items del menu */
     
     #menu ul li {
-        background-color: #2e518b;
+        background-color: #024959;
     }
-    /* enlaces del menu */
     
     #menu ul a {
         display: block;
         color: #fff;
         text-decoration: none;
-        font-weight: 1200;
+        font-weight: 300;
         font-size: 15px;
         padding: 10px;
         font-family: serif;
         text-transform: uppercase;
         letter-spacing: 1px;
     }
-    /* items del menu */
     
     #menu ul li {
         position: relative;
@@ -81,12 +83,10 @@
         margin: 0;
         padding: 0;
     }
-    /* efecto al pasar el ratón por los items del menu */
     
     #menu ul li:hover {
         background: #5b78a7;
     }
-    /* menu desplegable */
     
     #menu ul ul {
         display: none;
@@ -96,13 +96,11 @@
         background: #eee;
         padding: 0;
     }
-    /* items del menu desplegable */
     
     #menu ul ul li {
         float: none;
         width: 150px
     }
-    /* enlaces de los items del menu desplegable */
     
     #menu ul ul a {
         line-height: 120%;
@@ -122,5 +120,5 @@
     aside {
         display: inline-block;
         float: right;
-        width: 15%;
+        padding: 15px;
     }
